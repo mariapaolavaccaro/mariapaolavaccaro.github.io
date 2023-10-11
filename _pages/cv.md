@@ -9,32 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
+[See my full CV here](../files/MariaPaolaVaccaro_CV.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Astronomy and Cosmic Physics, Heidelberg University, 2026 (expected)
+* M.S. in Astrophysics and Cosmology, University of Padua, 2022
+* B.S. in Physics, University of Pisa, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* February-August 2023: Pre-doctoral fellowship
+  * University of Padua
+  * Hierarchical evolution of stellar-sized binary black holes in active galactic nuclei
+  * Supervisor: Prof. Michela Mapelli
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* October-December 2022: Internship
+  * IFAE, Universitat Autonoma de Barcelona
+  * Gravitational Waves Physics 
+  * Supervisor: Prof. Mario Martinez Perez
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -48,12 +42,10 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Tutoring
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.tutoring %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  
