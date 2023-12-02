@@ -4,7 +4,7 @@ collection: tutoring
 type: "Undergraduate course"
 permalink: /tutoring/2024
 venue: "Heidelberg University"
-date: 2024
+date: spring 2024
 location: "Heidelberg, Germany"
 ---
 
