@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Astronomy and Cosmic Physics, 2026 (expected)
+* Ph.D. in Astronomy and Cosmic Physics, 2026 (expected)
   * Heidelberg University, Heidelberg, Germany
   * Supervisor: Prof. Michela Mapelli
 * M.S. in Astrophysics and Cosmology, 2022
