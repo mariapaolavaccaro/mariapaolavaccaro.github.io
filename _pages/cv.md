@@ -13,19 +13,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Astronomy and Cosmic Physics, Heidelberg University, 2026 (expected)
-* M.S. in Astrophysics and Cosmology, University of Padua, 2022
+* Ph.D in Astronomy and Cosmic Physics, 2026 (expected)
+  * Heidelberg University, Heidelberg, Germany
+  * Supervisor: Prof. Michela Mapelli
+* M.S. in Astrophysics and Cosmology, 2022
+  * University of Padova, Padua, Italy
+  * Supervisor: Prof. Michela Mapelli
 * B.S. in Physics, University of Pisa, 2019
+  * University of Pisa, Pisa, Italy
+  * Supervisor: Prof. Pier Giorgio Prada Moroni
 
 Work experience
 ======
 * February-August 2023: Pre-doctoral fellowship
-  * University of Padua
+  * University of Padova, Padua, Italy
   * Hierarchical evolution of stellar-sized binary black holes in active galactic nuclei
   * Supervisor: Prof. Michela Mapelli
 
 * October-December 2022: Internship
-  * IFAE, Universitat Autonoma de Barcelona
+  * IFAE, Universitat Autonoma de Barcelona, Barcelona, Spain
   * Gravitational Waves Physics 
   * Supervisor: Prof. Mario Martinez Perez
   
@@ -42,10 +48,4 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Tutoring
-======
-  <ul>{% for post in site.tutoring %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  
+
