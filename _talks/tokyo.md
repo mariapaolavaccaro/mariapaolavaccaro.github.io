@@ -9,4 +9,5 @@ location: "Tokyo, Japan"
 ---
 
 Contributed talk about my recent paper at the RESCEU-NBIA GW workshop.
-[slides](../files/Impact of Gas Hardening.pdf)
+
+[See slides](../files/Impact of Gas Hardening.pdf)
