@@ -4,8 +4,8 @@ collection: tutoring
 type: "Undergraduate course"
 permalink: /tutoring/2024
 venue: "Heidelberg University"
-date: 2024-01-01
+date: 2024-04-01
 location: "Heidelberg, Germany"
 ---
 
-I will tutor a course in the spring semester 2024. More information to come!
+I tutored for the block course Introduction to Astronomy & Astrophysics (MVastro0) in the summer semester 2024. 
