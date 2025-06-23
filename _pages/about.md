@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Maria Paola, but you can call me Paola for short :)
+I'm Maria Paola, you can call me Paola for short :)
 
 I'm an astrophysicist working in the field of gravitational-wave astronomy and black hole physics, with a focus on binary black hole dynamics in active galactic nuclei, but I'm always open to learn more.
 
