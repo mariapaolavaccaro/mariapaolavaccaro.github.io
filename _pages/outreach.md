@@ -19,8 +19,8 @@ I'm a member of the nonprofit organization <b>Scholé</b>. Our mission is to inv
 
 If you speak Italian and you are interested in our work, check out our [website](https://www.filosofiaroccella.it/) and our [Facebook page](https://www.facebook.com/Filosofiaroccella)!
 
-<figure style="text-align: center; max-width: 420px; margin: auto;">
-<img width="400" src="../images/scholephysis.jpg">
+<figure style="text-align: center; max-width: 520px; margin: auto;">
+<img width="500" src="../images/scholephysis.jpg">
 <figcaption> Me and Prof. Paolo Bussotti during the summer school <em>PHYSIS</em> about the relationship between man and Nature.</figcaption>
 
 </figure>
