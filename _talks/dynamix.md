@@ -3,7 +3,7 @@ title: "Dynamix"
 collection: talks
 type: "Talk"
 permalink: /talks/dynamix
-venue: "Institute of Astronomy, Cambridge, UK"
+venue: "Institute of Astronomy"
 date: 2025-06-05
 location: "Cambridge, UK"
 ---
