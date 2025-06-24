@@ -1,7 +1,7 @@
 ---
 title: "MODEST-25 & IAU Symposium 398"
 collection: talks
-type: "Talk"
+type: "Contributed talk"
 permalink: /talks/modest-25
 venue: "Seoul National University"
 date: 2025-06-18
