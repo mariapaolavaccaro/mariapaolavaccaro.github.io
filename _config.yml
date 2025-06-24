@@ -22,8 +22,8 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "foto_CPH.JPG"
-  name             : "M. Paola vaccaro"
+  avatar           : "moony.jpg"
+  name             : "M. Paola Vaccaro"
   pronouns         : "she/her"  
   bio              : "PhD candidate"
   location         : "Heidelberg"
