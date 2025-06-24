@@ -11,6 +11,7 @@ author_profile: true
 
 <div style="text-align: center;">
 <img width="600" src="../images/mixing_fracs.png">
+<figcaption><em>Blogpost excerpt:<\em> Fraction of mixed mergers over time in the AGN disk.**Estimate of the proportion of merger events arising from each channel, obtained by comparing simulated and observed black hole masses.</figcaption>
 </div>
 
 
@@ -20,6 +21,8 @@ If you speak Italian and you are interested in our work, check out our [website]
 
 <div style="text-align: center;">
 <img width="600" src="../images/scholephysis.jpg">
+<figcaption>Me and Prof. Paolo Bussotti during the summer school <em>PHYSIS</em> about the relationship between man and Nature.</figcaption>
+
 </div>
 
 
