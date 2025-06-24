@@ -22,9 +22,9 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "moony.jpg"
   name             : "M. Paola vaccaro"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "PhD candidate"
   location         : "Heidelberg"
   employer         : "ITA, Heidelberg University"
