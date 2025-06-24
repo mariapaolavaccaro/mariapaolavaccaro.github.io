@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/dynamix
 venue: "Institute of Astronomy, Cambridge, UK"
-date: 2025
+date: 2025-06-05
 location: "Cambridge, UK"
 ---
 
