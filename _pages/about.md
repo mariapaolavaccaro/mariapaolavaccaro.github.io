@@ -15,3 +15,7 @@ I'm an astrophysicist working in the field of gravitational-wave astronomy and b
 
 I'm a PhD candidate at the [Institute of Theoretical Astrophysics (ITA/ZAH)](https://www.zah.uni-heidelberg.de/welcome), Heidelberg University.
 I work with [Michela Mapelli](http://web.pd.astro.it/mapelli/) in the [DEMOBLACK](http://demoblack.com/) group.
+
+<div style="text-align: center;">
+<img width="800" src="../images/heidelberg.jpg">
+</div>
