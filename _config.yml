@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "M. Paola Vaccaro"
+title                    : "Paola Vaccaro"
 title_separator          : "-"
 name                     : &name "Paola"
 description              : &description "personal description"
