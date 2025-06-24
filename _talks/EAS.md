@@ -1,7 +1,7 @@
 ---
 title: "EAS annual meeting"
 collection: talks
-type: "Talk"
+type: "Contributed talk and poster presentation"
 permalink: /talks/EAS
 venue: "Congress Center"
 date: 2024-07-03
