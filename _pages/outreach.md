@@ -7,7 +7,7 @@ layout: archive
 author_profile: true
 ---
 
-[Read my article on multiple formation channels of binary black hole mergers, with special focus on AGN disks and hierarchical assembly, on the STRUCTURES Blog.](https://structures.uni-heidelberg.de/blog/posts/2025_03/index.php)
+[Read my article](https://structures.uni-heidelberg.de/blog/posts/2025_03/index.php) on multiple formation channels of binary black hole mergers, with special focus on AGN disks and hierarchical assembly, on the STRUCTURES Blog.
 
 <div style="text-align: center;">
 <img width="600" src="../images/mixing_fracs.png">
