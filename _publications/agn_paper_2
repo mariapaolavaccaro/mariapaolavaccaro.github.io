@@ -1,0 +1,10 @@
+---
+title: "The role of migration traps in the formation of binary black holes in AGN disks"
+collection: publications
+permalink: /publication/agn-paper-2
+excerpt: 'Binary black holes (BBHs) forming in the accretion disks of active galactic nuclei (AGNs) represent a promising channel for gravitational-wave production. BBHs are typically expected to originate at migration traps, i.e. radial locations where the Type I migration of embedded stellar-mass black holes (BHs) transitions from outwards to inwards. In this work, we test this assumption by explicitly simulating the radial migration of BH pairs in AGN disks under different torque prescriptions, including thermal effects and the switch to Type II migration. We map where and when binaries form as a function of supermassive BH (SMBH) mass, disk viscosity, and migrating BH mass. We find that, for SMBH masses below $M_\bullet^{\rm thr} \simeq 3\times 10^7 M_\odot$, the majority of pair-up events occur near migration traps (roughly 80%). In contrast, for higher SMBH masses, differential migration dominates and off-trap pair-ups prevail. Most notably, disks without migration traps ($\alpha = 0.01$, $M_\bullet \gtrsim 10^8 M_\odot$) present a significant overdensity of pair-ups at $R\simeq 10^2 R_{\rm S}$ due to traffic-jam-like accumulations where the gamma profile changes slope sharply. We also investigate hierarchical BBH formation, showing that higher-generation pair-ups cluster more tightly around trap or traffic-jam radii. Our results provide realistic prescriptions for BBH pair-up locations and timescales, highlighting the limitations of assuming fixed BBH formation sites'
+date: 2025-08-05
+venue: 'arxiv'
+paperurl: 'https://arxiv.org/abs/2508.03637'
+citation: 'Vaccaro, M. P., Seif, Y., & Mapelli, M., 2025, arXiv:2508.03637. '
+---
