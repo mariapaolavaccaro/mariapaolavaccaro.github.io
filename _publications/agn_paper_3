@@ -1,0 +1,21 @@
+---
+title: "AGN-driven BBH mergers: Black hole populations and hierarchical growth across the AGN parameter space"
+collection: publications
+permalink: /publication/agn-paper-3
+excerpt: 'Active galactic nuclei (AGNs) have been proposed as efficient environments for the formation of binary black holes (BBHs).
+We present an updated semi-analytical framework for BBH formation and evolution in AGN disks, following the capture, migration, pair-up, gas-driven hardening, binary--single encounters, and merger of stellar-origin black holes. 
+We systematically explore the dependence of the resulting BBH merger population on the main AGN parameters, namely the supermassive black hole mass $\MSMBH$, the Eddington ratio $\fEdd$, and the disk viscosity parameter $\alpha$, and construct an intrinsic BBH population by weighting the simulations according to observed low-redshift AGN properties. 
+We find that AGN disks can produce repeated mergers and build a high-mass tail extending beyond the pair-instability mass gap and into the intermediate-mass range. 
+Hierarchical growth is more efficient in lower-viscosity disks, with $\alpha=0.01$, while higher-viscosity disks suppress the formation of massive remnants. 
+The merger efficiency generally increases with $\fEdd$, but its dependence on $\MSMBH$ is non-trivial. 
+The AGN-assisted BBH population is characterized by increasingly unequal mass ratios at high primary mass, a correlation between primary mass and $|\chi_{\rm eff}|$, and an effective-spin distribution that depends strongly on the fraction of binaries born in prograde or retrograde configurations. 
+Most mergers enter the ground-based detector %band
+frequency range with low eccentricities, $e \sim 10^{-3}$--$10^{-2}$ at $f_{\rm peak}=10\,{\rm Hz}$, although a subpopulation retains high eccentricity.
+We find that the AGN channel can reproduce systems broadly consistent with the massive BBH events GW190521 and GW231123. 
+We test several variations of the physical model, including different formalisms for migration torques, gas hardening, and three-body encounters. 
+The general properties of the population are robust across these variations, with the high-mass tail and spin signatures persisting in all cases except when gas hardening is switched off. This confirms that gas-driven binary evolution is a key ingredient for efficient hierarchical growth in AGN disks.'
+date: 2026-06-09
+venue: 'arxiv'
+paperurl: 'https://arxiv.org/abs/2606.10823'
+citation: 'Vaccaro, M. P., Mapelli, M., Trani, A. A. & Liu, B. 2026, arXiv:2606.10823. '
+---
