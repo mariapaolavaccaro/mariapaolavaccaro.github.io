@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Paola Vaccaro"
+title                    : "Paola"
 title_separator          : "-"
 name                     : &name "Paola"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "moony.jpg"
+  avatar           : "dolomiti_trip.jpeg"
   name             : "M. Paola Vaccaro"
   pronouns         : "she/her"  
   bio              : "PhD candidate"
