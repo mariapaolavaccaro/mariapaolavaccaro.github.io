@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "XVI ET Symposium",
+    50.776555, 
+    6.079087
+  ],
+  [
     "MODEST-25 & IAU Symposium 398",
     37.566679, 
     126.978291
