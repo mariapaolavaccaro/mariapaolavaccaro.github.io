@@ -1,7 +1,7 @@
 var addressPoints = [
   [
     "XVI ET Symposium",
-    50.776555, 
+    50.77655, 
     6.079087
   ],
   [
