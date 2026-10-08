@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Many faces of stellar-mass black holes 2026",
+    "Many faces of stellar-mass black holes, 2026",
     27.71, 
     85.32
   ],
