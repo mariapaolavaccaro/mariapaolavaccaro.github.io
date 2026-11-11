@@ -1,18 +1,10 @@
 ---
-title: "AGN-driven BBH mergers: Black hole populations and hierarchical growth across the AGN parameter space"
+title: "Black hole populations and hierarchical growth across the active galactic nuclei parameter space"
 collection: publications
 permalink: /publication/agn-paper-3
-excerpt: 'Active galactic nuclei (AGNs) have been proposed as efficient environments for the formation of binary black holes (BBHs).
-We present an updated semi-analytical framework for BBH formation and evolution in AGN disks, following the capture, migration, pair-up, gas-driven hardening, binary--single encounters, and merger of stellar-origin black holes. 
-We systematically explore the dependence of the resulting BBH merger population on the main AGN parameters, namely the supermassive black hole mass, the Eddington ratio, and the disk viscosity parameter, and construct an intrinsic BBH population by weighting the simulations according to observed low-redshift AGN properties. 
-We find that AGN disks can produce repeated mergers and build a high-mass tail extending beyond the pair-instability mass gap and into the intermediate-mass range. 
-Hierarchical growth is more efficient in lower-viscosity disks, while higher-viscosity disks suppress the formation of massive remnants. 
-The AGN-assisted BBH population is characterized by increasingly unequal mass ratios at high primary mass and an effective-spin distribution that depends strongly on the fraction of binaries born in prograde or retrograde configurations. 
-We find that the AGN channel can reproduce systems broadly consistent with the massive BBH events GW190521 and GW231123. 
-We test several variations of the physical model, including different formalisms for migration torques, gas hardening, and three-body encounters. 
-The general properties of the population are robust across these variations, with the high-mass tail and spin signatures persisting in all cases except when gas hardening is switched off. This confirms that gas-driven binary evolution is a key ingredient for efficient hierarchical growth in AGN disks.'
-date: 2026-06-09
-venue: 'arxiv'
-paperurl: 'https://arxiv.org/abs/2606.10823'
-citation: 'Vaccaro, M. P., Mapelli, M., Trani, A. A. & Liu, B. 2026, arXiv:2606.10823. '
+excerpt: 'We map how binary black hole populations and hierarchical growth depend on AGN disk parameters, identifying regimes where intermediate-mass black holes can assemble efficiently through repeated mergers.'
+date: 2026-02-01
+venue: 'Astronomy & Astrophysics'
+paperurl: 'https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html'
+citation: 'Vaccaro, M.P., Mapelli, M., Trani, A.A., Liu, B., A&A, 714, A322 (2026)'
 ---

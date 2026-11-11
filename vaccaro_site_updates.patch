@@ -1,0 +1,872 @@
+diff --git a/_config.yml b/_config.yml
+index c10b4f5..54f2773 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -1,110 +1,101 @@
+-# Welcome to Jekyll!
+-#
+-# This config file is meant for settings that affect your entire site, values
+-# which you are expected to set up once and rarely need to edit after that.
+-# For technical reasons, this file is *NOT* reloaded automatically when you use
+-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+-# server process.
+-
+ # Basic Site Settings
+ locale                   : "en-US"
+ site_theme               : "default"
+-title                    : "Home"
++title                    : "M. Paola Vaccaro"
+ title_separator          : "-"
+-name                     : &name "Paola"
+-description              : &description "personal description"
+-url                      : https://mariapaolavaccaro.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+-baseurl                  : "" # the subpath of your site, e.g. "/blog"
++name                     : &name "M. Paola Vaccaro"
++description              : &description "PhD candidate in astrophysics at Heidelberg University, working on binary black hole mergers and AGN disk dynamics."
++url                      : https://mariapaolavaccaro.github.io
++baseurl                  : ""
+ repository               : "academicpages/academicpages.github.io"
+ 
+-# Site Author - The following control what appear as part of the author content on the side bar.
+-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+-#               Additional customization can be done by editing /_includes/author-profile.html
++# Site Author
+ author:
+-  # Biographic information
+-  avatar           : "dolomiti_trip.jpeg"
++  avatar           : "bio-photo.jpg"
+   name             : "M. Paola Vaccaro"
+-  pronouns         : "she/her"  
+-  bio              : "PhD candidate"
+-  location         : "Heidelberg"
+-  employer         : "ITA, Heidelberg University"
+-  uri              : # URL
+-  email            : "mariapaolavaccaro@gmail.com" 
++  pronouns         : "she/her"
++  bio              : "PhD candidate in Astrophysics"
++  location         : "Heidelberg, Germany"
++  employer         : "ITA/ZAH, Heidelberg University"
++  uri              :
++  email            : "mariapaolavaccaro@gmail.com"
+ 
+   # Academic websites
+-  academia         : # URL
+-  arxiv            : # URL - Update with the correct link to your profile
+-  googlescholar    : # URL "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+-  impactstory      : # URL
+-  orcid            : "http://orcid.org/0000-0003-3776-9246"
+-  semantic         : # URL
+-  pubmed           : # URL
+-  researchgate     : # URL
+-  scopus           : # URL
++  academia         :
++  arxiv            :
++  googlescholar    :
++  impactstory      :
++  orcid            : "https://orcid.org/0000-0003-3776-9246"
++  ads              : "https://ui.adsabs.harvard.edu/search/q=author%3A%22Vaccaro%2C+M.+P.%22&sort=date+desc"
++  semantic         :
++  pubmed           :
++  researchgate     :
++  scopus           :
+ 
+   # Repositories and software development
+-  bitbucket        : # Username - Update with your username on the site
+-  codepen          : # Username
+-  dribbble         : # Username
+-  github           : # "academicpages"
+-  kaggle           : # Username  
+-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
++  bitbucket        :
++  codepen          :
++  dribbble         :
++  github           :
++  gitlab           : "mariapaola.vaccaro"
++  kaggle           :
++  stackoverflow    :
+ 
+   # Social media
+-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+-  facebook         : # Username
+-  flickr           : # Username
+-  foursquare       : # Username
+-  goodreads        : # Username
+-  google_plus      : # Username
+-  keybase          : # Username
+-  instagram        : # Username
+-  lastfm           : # Username
++  bluesky          :
++  facebook         :
++  flickr           :
++  foursquare       :
++  goodreads        :
++  google_plus      :
++  keybase          :
++  instagram        :
++  lastfm           :
+   linkedin         : maria-paola-vaccaro-78479b231
+-  mastodon         : # URL
+-  medium           : # URL
+-  pinterest        : # Username
+-  soundcloud       : # Username
+-  steam            : # Username
+-  telegram         : # URL
+-  tumblr           : # Username
+-  twitter          : # Username for X / Twitter
+-  vine             : # Username
+-  weibo            : # Username
+-  wikipedia        : # Username
+-  xing             : # Username
+-  youtube          : # Username
+-  zhihu            : # Username
+-
+-# Publication Category - The following the list of publication categories and their headings
++  mastodon         :
++  medium           :
++  pinterest        :
++  soundcloud       :
++  steam            :
++  telegram         :
++  tumblr           :
++  twitter          :
++  vine             :
++  weibo            :
++  wikipedia        :
++  xing             :
++  youtube          :
++  zhihu            :
++
++# Publication Category
+ publication_category:
+   books:
+     title: 'Books'
+   manuscripts:
+-    title: 'Journal Articles'    
++    title: 'Journal Articles'
+   conferences:
+     title: 'Conference Papers'
+ 
+ # Site Settings
+-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+-breadcrumbs              : false # true, false (default)
++teaser                   :
++breadcrumbs              : false
+ words_per_minute         : 160
+ future                   : true
+-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+-talkmap_link             : false      #change to true to add link to talkmap on talks page
++read_more                : "disabled"
++talkmap_link             : false
+ comments:
+-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
++  provider               :
+   disqus:
+     shortname            :
+   discourse:
+-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
++    server               :
+   facebook:
+     appid                :
+-    num_posts            : # 5 (default)
+-    colorscheme          : # "light" (default), "dark"
++    num_posts            :
++    colorscheme          :
+ staticman:
+   allowedFields          : ['name', 'email', 'url', 'message']
+-  branch                 : "gh-pages" # "master", "gh-pages"
++  branch                 : "gh-pages"
+   commitMessage          : "New comment."
+   filename               : comment-{@timestamp}
+   format                 : "yml"
+@@ -117,11 +108,10 @@ staticman:
+     date:
+       type               : "date"
+       options:
+-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
++        format           : "iso8601"
+ atom_feed:
+-  hide                   : false     # change to true to hide the RSS feed in the footer
+-  path                   : # blank (default) uses feed.xml
+-
++  hide                   : false
++  path                   :
+ 
+ # SEO Related
+ google_site_verification :
+@@ -129,7 +119,6 @@ bing_site_verification   :
+ alexa_site_verification  :
+ yandex_site_verification :
+ 
+-
+ # Social Sharing
+ twitter:
+   username               : &twitter
+@@ -137,23 +126,19 @@ facebook:
+   username               :
+   app_id                 :
+   publisher              :
+-og_image                 :  # Social media default site image
+-og_description           :  # Social media default site image description
+-# For specifying social profiles
+-# - https://developers.google.com/structured-data/customize/social-profiles
++og_image                 :
++og_description           :
+ social:
+-  type                   : # Person or Organization (defaults to Person)
+-  name                   : # If the user or organization name differs from the site's name
+-  links: # An array of links to social media profiles
+-
++  type                   :
++  name                   :
++  links:
+ 
+ # Analytics
+ analytics:
+-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
++  provider               : "false"
+   google:
+     tracking_id          :
+ 
+-
+ # Reading Files
+ include:
+   - .htaccess
+@@ -192,7 +177,6 @@ keep_files:
+ encoding: "utf-8"
+ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+ 
+-
+ # Conversion
+ markdown: kramdown
+ highlighter: rouge
+@@ -200,7 +184,6 @@ lsi: false
+ excerpt_separator: "\n\n"
+ incremental: false
+ 
+-
+ # Markdown Processing
+ kramdown:
+   input: GFM
+@@ -212,8 +195,7 @@ kramdown:
+   smart_quotes: lsquo,rsquo,ldquo,rdquo
+   enable_coderay: false
+ 
+-
+-# These settings control the types of collections used by the template
++# Collections
+ collections:
+   teaching:
+     output: true
+@@ -228,10 +210,8 @@ collections:
+     output: true
+     permalink: /:collection/:path/
+ 
+-
+-# These settings control how pages and collections are included in the site
++# Defaults
+ defaults:
+-  # _posts
+   - scope:
+       path: ""
+       type: posts
+@@ -242,14 +222,12 @@ defaults:
+       comments: true
+       share: true
+       related: true
+-  # _pages
+   - scope:
+       path: ""
+       type: pages
+     values:
+       layout: single
+       author_profile: true
+-  # _teaching
+   - scope:
+       path: ""
+       type: teaching
+@@ -258,7 +236,6 @@ defaults:
+       author_profile: true
+       share: true
+       comments: true
+-  # _publications
+   - scope:
+       path: ""
+       type: publications
+@@ -267,7 +244,6 @@ defaults:
+       author_profile: true
+       share: true
+       comments: true
+-  # _portfolio
+   - scope:
+       path: ""
+       type: portfolio
+@@ -276,7 +252,6 @@ defaults:
+       author_profile: true
+       share: true
+       comment: true
+-  # _talks
+   - scope:
+       path: ""
+       type: talks
+@@ -285,19 +260,14 @@ defaults:
+       author_profile: true
+       share: true
+ 
+-
+ # Sass/SCSS
+ sass:
+   sass_dir: _sass
+-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+-
++  style: compressed
+ 
+ # Outputting
+ permalink: /:categories/:title/
+-# paginate: 5 # amount of posts to show
+-# paginate_path: /page:num/
+-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+-
++timezone: Etc/UTC
+ 
+ # Plugins
+ plugins:
+@@ -308,7 +278,6 @@ plugins:
+   - jekyll-redirect-from
+   - jemoji
+ 
+-# Mimic GitHub Pages with --safe
+ whitelist:
+   - jekyll-feed
+   - jekyll-gist
+@@ -317,38 +286,15 @@ whitelist:
+   - jekyll-redirect-from
+   - jemoji
+ 
+-
+ # Archives
+-#  Type
+-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+-#  Path (examples)
+-#  - Archive page should exist at path when using Liquid method or you can
+-#    expect broken links (especially with breadcrumbs enabled)
+-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+-#  - <base_path/my-awesome-category/index.html ~> path: /
+ category_archive:
+   type: liquid
+   path: /categories/
+ tag_archive:
+   type: liquid
+   path: /tags/
+-# https://github.com/jekyll/jekyll-archives
+-# jekyll-archives:
+-#   enabled:
+-#     - categories
+-#     - tags
+-#   layouts:
+-#     category: archive-taxonomy
+-#     tag: archive-taxonomy
+-#   permalinks:
+-#     category: /categories/:name/
+-#     tag: /tags/:name/
+-
+ 
+ # HTML Compression
+-# - http://jch.penibelst.de/
+ compress_html:
+   clippings: all
+   ignore:
+diff --git a/_data/navigation.yml b/_data/navigation.yml
+index 37ed1ad..ad0748d 100644
+--- a/_data/navigation.yml
++++ b/_data/navigation.yml
+@@ -1,25 +1,15 @@
+-# The following is the order of the links in the header of the website.
+-#
+-# Changing the order here will adjust the order and you can also add additional
+-# links. Removing a link prevents it from showing in the header, but does not
+-# prevent it from being included in the site.
+-#
+-# NOTE that only one of the CV options should be selected, the first is for the
+-#      Markdown formatted page while the second is generated using JSON.
+-
+ main:
+   - title: "Publications"
+     url: /publications/
+ 
+   - title: "Talks"
+-    url: /talks/    
+- 
++    url: /talks/
++
++  - title: "Software"
++    url: /software/
++
+   - title: "Outreach"
+     url: /outreach/
+-    
++
+   - title: "CV"
+     url: /cv/
+-    
+-  # - title: "CV"
+-  #   url: /cv-json/
+-    
+diff --git a/_includes/author-profile.html b/_includes/author-profile.html
+index b433281..e6403cf 100644
+--- a/_includes/author-profile.html
++++ b/_includes/author-profile.html
+@@ -56,6 +56,9 @@
+       {% if author.orcid %}
+         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+       {% endif %}
++      {% if author.ads %}
++        <li><a href="{{ author.ads }}"><i class="ai ai-ads ai-fw icon-pad-right"></i>ADS</a></li>
++      {% endif %}
+       {% if author.pubmed %}
+         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
+       {% endif %}                        
+@@ -79,6 +82,9 @@
+       {% if author.github %}
+         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+       {% endif %}
++      {% if author.gitlab %}
++        <li><a href="https://gitlab.com/{{ author.gitlab }}"><i class="fab fa-fw fa-gitlab icon-pad-right" aria-hidden="true"></i>GitLab</a></li>
++      {% endif %}
+       {% if author.kaggle %}
+         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
+       {% endif %}      
+diff --git a/_pages/about.md b/_pages/about.md
+index d7968a3..b4db49c 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -2,21 +2,18 @@
+ permalink: /
+ title: "About me"
+ author_profile: true
+-redirect_from: 
++redirect_from:
+   - /about/
+   - /about.html
+ ---
+ 
+-I'm Maria Paola, you can call me Paola for short :)
++I'm Maria Paola — Paola for short. I am a computational astrophysicist modelling how black holes grow from stellar to intermediate and supermassive masses, and what their gravitational-wave mergers reveal about the early Universe. I showed that AGN disks can grow black holes through the pair-instability gap into the intermediate-mass range — but only in low-viscosity disks with efficient gas hardening — and that the resulting populations match systems like GW190521 and GW231123.
+ 
+-[See my full CV here](../files/MariaPaolaVaccaro_CV.pdf)
++I am a PhD candidate at the [Institute of Theoretical Astrophysics (ITA/ZAH)](https://www.zah.uni-heidelberg.de/welcome), Heidelberg University, in the [DEMOBLACK](http://demoblack.com/) group.
+ 
+-I'm an astrophysicist working in the field of gravitational-wave astronomy and black hole physics, with a focus on binary black hole dynamics in active galactic nuclei.
++**Research interests:** intermediate-mass black holes · AGN disk dynamics · star cluster dynamics · gravitational-wave sources · stellar collisions · Einstein Telescope science
+ 
+-I'm a PhD candidate at the [Institute of Theoretical Astrophysics (ITA/ZAH)](https://www.zah.uni-heidelberg.de/welcome), Heidelberg University.
+-I work with [Michela Mapelli](http://web.pd.astro.it/mapelli/) in the [DEMOBLACK](http://demoblack.com/) group.
+-
+-Contact me via email at [mariapaolavaccaro@gmail.com](mailto:mariapaolavaccaro@gmail.com) or reach me in Office 161 at ITA
++You can reach me by email at [mariapaolavaccaro@gmail.com](mailto:mariapaolavaccaro@gmail.com) or in Office 161 at ITA, Heidelberg.
+ 
+ <figure style="text-align: center; max-width: 820px; margin: auto;">
+ <img width="800" src="../images/heidelberg.jpg">
+diff --git a/_pages/cv.md b/_pages/cv.md
+index 3dad9b1..36bb30e 100644
+--- a/_pages/cv.md
++++ b/_pages/cv.md
+@@ -9,16 +9,59 @@ redirect_from:
+ 
+ {% include base_path %}
+ 
+-[See my full CV here](../files/MariaPaolaVaccaro_CV.pdf)
+-
+-Representative Publications
+-======
+-* [AGN-driven BBH mergers: Black hole populations and hierarchical growth across the AGN parameter space](https://arxiv.org/abs/2606.10823)
+-* [The role of migration traps in the formation of binary black holes in AGN disks](https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html)
+-* [Impact of gas hardening on the population properties of hierarchical black hole mergers in active galactic nucleus disks](https://www.aanda.org/articles/aa/full_html/2024/05/aa48509-23/aa48509-23.html)
+-
+-Education
+-======
+-* Ph.D. in Astronomy and Cosmic Physics, Heidelberg University, 2027 (expected)
+-* M.S. in Astrophysics and Cosmology, University of Padua, 2022
+-* B.S. in Physics, University of Pisa, 2019
++[Download full CV (PDF)](../files/MariaPaolaVaccaro_CV.pdf){: .btn .btn--primary}
++
++---
++
++## Research profile
++
++I am a computational astrophysicist and PhD candidate at Heidelberg University (supervisor: Prof. Michela Mapelli), modelling how black holes grow from stellar to intermediate and supermassive masses, and what their gravitational-wave mergers reveal about the early Universe. I showed that AGN disks can grow black holes through the pair-instability gap into the intermediate-mass range, but only in low-viscosity disks with efficient gas hardening, and that the resulting populations match systems like GW190521 and GW231123. Expected defence January 2028; available for postdoc and fellowship positions from late 2027.
++
++---
++
++## Education
++
++**PhD in Astronomy and Cosmic Physics** (Sep 2023 – 2028, expected)
++Institute for Theoretical Astrophysics (ITA/ZAH), Heidelberg University, Germany.
++Supervisor: Prof. Michela Mapelli. Thesis: *"Binary Black Hole population in the Local Universe"*
++Funded by ERC Consolidator Grant DEMOBLACK and the Heidelberg Cluster of Excellence STRUCTURES.
++
++**MSc in Astrophysics and Cosmology** (Oct 2020 – Sep 2022)
++Università degli Studi di Padova, Italy. Grade: 110/110 cum laude (GPA: 29.4/30).
++Thesis: *"Hierarchical Black Hole Mergers in Active Galactic Nuclei"*
++
++**BSc in Physics** (Sep 2016 – Sep 2019)
++Università di Pisa, Italy. Grade: 110/110 cum laude (GPA: 28.6/30).
++
++---
++
++## Selected highlights
++
++- **10 papers**, of which 4 as first author. ~80 citations on first-author papers. h-index 7 (NASA ADS, Sept. 2026)
++- **12 conference contributions** (EAS, MODEST, ET Symposium, among others) and seminars at ISTA Vienna, GSSI L'Aquila, University of Arizona, and UNAB Santiago
++- **Invited** to write a contribution for a Royal Society theme issue (2025) and to give talks at the Niels Bohr Institute (2024) and the Physics of Data Workshop, Venice (2023)
++- **SSC Fellowship** (2026–27) in research software engineering, Scientific Software Center, Heidelberg; PhD fellow of IMPRS; member of the STRUCTURES Young Research Convent
++- **Mentoring and service:** co-supervised 3 students (1 MSc, 2 BSc); teaching assistant for 2 semesters; referee for A&A, JCAP, and PRD; member of the Einstein Telescope collaboration (OSB Div. 3)
++
++---
++
++## Methods and software
++
++**Modelling:** semi-analytic frameworks, population synthesis, SPH hydrodynamical simulations, Bayesian statistics
++
++**Languages:** Python, C/C++, CUDA, Fortran
++
++**HPC:** MPI, Slurm, GPU and cluster workflows (EuroHPC summer school, RIKEN; SSC research-software fellow)
++
++**Code:** lead developer of [FastClusterAGN](https://gitlab.com/mariapaola.vaccaro/fastcluster_agn) and [ARISE](https://gitlab.com/mariapaola.vaccaro/arise)
++
++---
++
++## Representative publications
++
++* [Cosmic merger rates and population evolution of binary black hole mergers in AGN disks](https://arxiv.org/abs/2610.40787) — Vaccaro et al., submitted (2026)
++* [Black hole populations and hierarchical growth across the AGN parameter space](https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html) — Vaccaro et al., A&A 714, A322 (2026)
++* [The role of migration traps in the formation of binary black holes in AGN disks](https://doi.org/10.1051/0004-6361/202556761) — Vaccaro et al., A&A 708, A171 (2026)
++* [Impact of gas hardening on hierarchical black hole mergers in AGN disks](https://www.aanda.org/articles/aa/full_html/2024/05/aa48509-23/aa48509-23.html) — Vaccaro et al., A&A 685, A51 (2024)
++
++[Full publication list on ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22Vaccaro%2C+M.+P.%22&sort=date+desc){: .btn}
+diff --git a/_pages/outreach.md b/_pages/outreach.md
+index b8ef446..7c5fd5c 100644
+--- a/_pages/outreach.md
++++ b/_pages/outreach.md
+@@ -7,22 +7,20 @@ layout: archive
+ author_profile: true
+ ---
+ 
+-[Read my article](https://structures.uni-heidelberg.de/blog/posts/2025_03/index.php) on multiple formation channels of binary black hole mergers, with special focus on AGN disks and hierarchical assembly, on the STRUCTURES Blog.
++**STRUCTURES Blog** — I wrote about the multiple formation channels of binary black hole mergers, with a special focus on AGN disks and hierarchical assembly, for the Heidelberg STRUCTURES Cluster of Excellence blog. [Read the article](https://structures.uni-heidelberg.de/blog/posts/2025_03/index.php)
+ 
+ <figure style="text-align: center; max-width: 420px; margin: auto;">
+ <img width="400" src="../images/mixing_fracs.png">
+-<figcaption> <em>Blogpost excerpt:</em> Estimate of the proportion of merger events arising from each channel, obtained by comparing simulated and observed black hole masses.</figcaption>
++<figcaption><em>Blogpost excerpt:</em> Estimate of the proportion of merger events arising from each formation channel, obtained by comparing simulated and observed black hole masses.</figcaption>
+ </figure>
+ 
++**Girls' Day "Physik hautnah!"** — I co-organize an annual workshop, *A dance of stars and black holes*, for school-aged students as part of the national Girls' Day programme (2024, 2025, 2026).
+ 
+-I'm a member of the nonprofit organization <b>Scholé</b>. Our mission is to involve the general public in discussions about physics, philosophy and history. We arrange weekly seminars which are open to anybody in presence or on zoom, and we organize a Summer School in Roccella Jonica (RC), Italy every year at the end of July. 
++**Gist.Science** — My paper on the formation of binary black holes in AGN disks was featured on [Gist.Science](https://gist.science/paper/2508.03637#gist), a platform that makes research accessible to a broad audience. [Read the summary](https://gist.science/paper/2508.03637#gist)
+ 
+-If you speak Italian and you are interested in our work, check out our [website](https://www.filosofiaroccella.it/) and our [Facebook page](https://www.facebook.com/Filosofiaroccella).
++**Scholé** — I am a member of the organizing committee of [Scholé](https://www.filosofiaroccella.it/), a nonprofit that brings physics, philosophy, and history to the general public through weekly seminars and an annual Summer School in Calabria, Italy. If you speak Italian, you are welcome to join — sessions are open to everyone, in person or online.
+ 
+ <figure style="text-align: center; max-width: 520px; margin: auto;">
+ <img width="500" src="../images/scholephysis.jpg">
+-<figcaption> Me and Prof. Paolo Bussotti during the summer school <em>PHYSIS</em> about the relationship between man and Nature.</figcaption>
+-
++<figcaption>Me and Prof. Paolo Bussotti during the summer school <em>PHYSIS</em> on the relationship between human beings and Nature.</figcaption>
+ </figure>
+-
+-
+diff --git a/_pages/publications.html b/_pages/publications.html
+index c70858f..35829e8 100644
+--- a/_pages/publications.html
++++ b/_pages/publications.html
+@@ -5,15 +5,14 @@ permalink: /publications/
+ author_profile: true
+ ---
+ 
+-{% if site.author.googlescholar %}
+-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+-{% endif %}
++<p>
++  Full list available on <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Vaccaro%2C+M.+P.%22&sort=date+desc" target="_blank">NASA ADS</a>
++  and <a href="https://orcid.org/0000-0003-3776-9246" target="_blank">ORCID</a>.
++  10 papers (4 as first author) · ~80 citations · h-index 7 (ADS, Sept. 2026).
++</p>
+ 
+ {% include base_path %}
+ 
+ {% for post in site.publications reversed %}
+   {% include archive-single.html %}
+ {% endfor %}
+-
+-
+-
+diff --git a/_pages/software.md b/_pages/software.md
+new file mode 100644
+index 0000000..cd7123c
+--- /dev/null
++++ b/_pages/software.md
+@@ -0,0 +1,34 @@
++---
++permalink: /software/
++title: "Software"
++layout: archive
++author_profile: true
++---
++
++I develop open-source codes for modelling binary black hole populations in dense astrophysical environments. Both packages are publicly available on GitLab.
++
++---
++
++<div style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap;">
++  <a href="https://gitlab.com/mariapaola.vaccaro/fastcluster_agn" target="_blank">
++    <img src="../images/fastcluster_agn_logo.jpeg" alt="FastClusterAGN logo" style="width: 120px; height: 120px; border-radius: 10px; object-fit: cover;">
++  </a>
++  <div>
++    <h2 style="margin-bottom: 0.4rem;"><a href="https://gitlab.com/mariapaola.vaccaro/fastcluster_agn">FastClusterAGN</a> <small style="font-size:0.75rem; font-weight:400; color:#888;">v1.0.0</small></h2>
++    <p>Fast semi-analytic model for binary black hole population synthesis in AGN disks, including gas hardening, migration traps, and hierarchical mergers across the AGN parameter space. Associated with publications <a href="/publication/agn-paper-1">Vaccaro et al. 2024</a> and <a href="/publication/agn-paper-3">Vaccaro et al. 2026</a>.</p>
++    <p style="margin-top:0.5rem;"><a href="https://gitlab.com/mariapaola.vaccaro/fastcluster_agn" class="btn btn--primary btn--small">GitLab →</a></p>
++  </div>
++</div>
++
++---
++
++<div style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap;">
++  <a href="https://gitlab.com/mariapaola.vaccaro/arise" target="_blank">
++    <img src="../images/arise_logo.png" alt="ARISE logo" style="width: 120px; height: 120px; border-radius: 10px; object-fit: cover;">
++  </a>
++  <div>
++    <h2 style="margin-bottom: 0.4rem;"><a href="https://gitlab.com/mariapaola.vaccaro/arise">ARISE</a> <small style="font-size:0.75rem; font-weight:400; color:#888;">v0.1.0</small></h2>
++    <p>Code for modelling the cosmic evolution of binary black hole merger rates and populations from AGN disks across redshift. Associated with <a href="/publication/agn-paper-4">Vaccaro et al. 2026 (submitted)</a>.</p>
++    <p style="margin-top:0.5rem;"><a href="https://gitlab.com/mariapaola.vaccaro/arise" class="btn btn--primary btn--small">GitLab →</a></p>
++  </div>
++</div>
+diff --git a/_pages/talks.html b/_pages/talks.html
+index a6cd2c7..313ab1d 100644
+--- a/_pages/talks.html
++++ b/_pages/talks.html
+@@ -5,9 +5,8 @@ permalink: /talks/
+ author_profile: true
+ ---
+ 
+-Here's a map of all places I've traveled to for conferences during my PhD. Maybe we've crossed paths there! :)
++A map of all the places I have travelled to for conferences during my PhD.
+ 
+-<!--<p>This map is generated from a Jupyter Notebook file in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">talkmap.ipynb</a>, which mines the location fields in the .md files in _talks/.</p>-->
+ <iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+ 
+ {% for post in site.talks reversed %}
+diff --git a/_publications/agn_paper_1.md b/_publications/agn_paper_1.md
+index 8d2f146..4d51604 100644
+--- a/_publications/agn_paper_1.md
++++ b/_publications/agn_paper_1.md
+@@ -1,11 +1,10 @@
+ ---
+-title: "Impact of gas hardening on the population properties of hierarchical black hole mergers in AGN discs"
++title: "Impact of gas hardening on the population properties of hierarchical black hole mergers in active galactic nucleus disks"
+ collection: publications
+ permalink: /publication/agn-paper-1
+-excerpt: 'Hierarchical black hole (BH) mergers in active galactic nuclei (AGNs) are unique among formation channels of binary black holes (BBHs) because they are likely associated with electromagnetic counterparts and can e ciently lead to the mass growth of BHs.
+- Here, we explore the impact of gas accretion and migration traps on the evolution of BBHs in AGNs. We have developed a new fast semi-analytic model, that allows us to explore the parameter space while capturing the main physical processes involved. We find that an effective exchange of energy and angular momentum between the BBH and the surrounding gas (i.e., gas hardening) during inspiral greatly enhances the e ciency of hierarchical mergers, leading to the formation of intermediate-mass BHs and triggering spin alignment. Moreover, our models with efficient gas hardening show both an anticorrelation between the BBH mass ratio and the effective spin and a correlation between the primary BH mass and the effective spin. In contrast, if gas hardening is inefficient, the hierarchical merger chain is already truncated after the first two or three generations. We compare the BBH population in AGNs with other dynamical channels, as well as isolated binary evolution.'
++excerpt: 'We explore the impact of gas accretion and migration traps on BBH evolution in AGN disks using a new fast semi-analytic model. Efficient gas hardening greatly enhances hierarchical mergers, leading to intermediate-mass BH formation and spin alignment, with observable signatures in the mass-ratio/effective-spin anticorrelation.'
+ date: 2024-01-31
+-venue: 'A&A'
++venue: 'Astronomy & Astrophysics'
+ paperurl: 'https://www.aanda.org/articles/aa/full_html/2024/05/aa48509-23/aa48509-23.html'
+-citation: 'Vaccaro, M.P. et al., A&A, 685, A51 (2024)'
++citation: 'Vaccaro, M.P., Mapelli, M., Périgois, C., Barone, D., Artale, M.C., et al., A&A, 685, A51 (2024)'
+ ---
+diff --git a/_publications/agn_paper_2 b/_publications/agn_paper_2
+index be80f4e..6398059 100644
+--- a/_publications/agn_paper_2
++++ b/_publications/agn_paper_2
+@@ -2,9 +2,9 @@
+ title: "The role of migration traps in the formation of binary black holes in AGN disks"
+ collection: publications
+ permalink: /publication/agn-paper-2
+-excerpt: 'Binary black holes (BBHs) forming in the accretion disks of active galactic nuclei (AGNs) represent a promising channel for gravitational-wave production. BBHs are typically expected to originate at migration traps, i.e. radial locations where the Type I migration of embedded stellar-mass black holes (BHs) transitions from outwards to inwards. In this work, we test this assumption by explicitly simulating the radial migration of BH pairs in AGN disks under different torque prescriptions, including thermal effects and the switch to Type II migration. Our results provide realistic prescriptions for BBH pair-up locations and timescales, highlighting the limitations of assuming fixed BBH formation sites'
+-date: 2025-08-05
+-venue: 'A&A'
+-paperurl: 'https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html'
+-citation: 'Vaccaro, M. P., Seif, Y., & Mapelli, M. 2026, A&A, 708, A171 '
++excerpt: 'We study the role of migration traps in shaping binary black hole populations in AGN disks, finding that trap location and disk properties strongly influence the mass and spin distributions of merging binaries.'
++date: 2026-01-01
++venue: 'Astronomy & Astrophysics'
++paperurl: 'https://doi.org/10.1051/0004-6361/202556761'
++citation: 'Vaccaro, M.P., Seif, Y., Mapelli, M., A&A, 708, A171 (2026)'
+ ---
+diff --git a/_publications/agn_paper_3 b/_publications/agn_paper_3
+index ad5a478..463803f 100644
+--- a/_publications/agn_paper_3
++++ b/_publications/agn_paper_3
+@@ -1,18 +1,10 @@
+ ---
+-title: "AGN-driven BBH mergers: Black hole populations and hierarchical growth across the AGN parameter space"
++title: "Black hole populations and hierarchical growth across the active galactic nuclei parameter space"
+ collection: publications
+ permalink: /publication/agn-paper-3
+-excerpt: 'Active galactic nuclei (AGNs) have been proposed as efficient environments for the formation of binary black holes (BBHs).
+-We present an updated semi-analytical framework for BBH formation and evolution in AGN disks, following the capture, migration, pair-up, gas-driven hardening, binary--single encounters, and merger of stellar-origin black holes. 
+-We systematically explore the dependence of the resulting BBH merger population on the main AGN parameters, namely the supermassive black hole mass, the Eddington ratio, and the disk viscosity parameter, and construct an intrinsic BBH population by weighting the simulations according to observed low-redshift AGN properties. 
+-We find that AGN disks can produce repeated mergers and build a high-mass tail extending beyond the pair-instability mass gap and into the intermediate-mass range. 
+-Hierarchical growth is more efficient in lower-viscosity disks, while higher-viscosity disks suppress the formation of massive remnants. 
+-The AGN-assisted BBH population is characterized by increasingly unequal mass ratios at high primary mass and an effective-spin distribution that depends strongly on the fraction of binaries born in prograde or retrograde configurations. 
+-We find that the AGN channel can reproduce systems broadly consistent with the massive BBH events GW190521 and GW231123. 
+-We test several variations of the physical model, including different formalisms for migration torques, gas hardening, and three-body encounters. 
+-The general properties of the population are robust across these variations, with the high-mass tail and spin signatures persisting in all cases except when gas hardening is switched off. This confirms that gas-driven binary evolution is a key ingredient for efficient hierarchical growth in AGN disks.'
+-date: 2026-06-09
+-venue: 'arxiv'
+-paperurl: 'https://arxiv.org/abs/2606.10823'
+-citation: 'Vaccaro, M. P., Mapelli, M., Trani, A. A. & Liu, B. 2026, arXiv:2606.10823. '
++excerpt: 'We map how binary black hole populations and hierarchical growth depend on AGN disk parameters, identifying regimes where intermediate-mass black holes can assemble efficiently through repeated mergers.'
++date: 2026-02-01
++venue: 'Astronomy & Astrophysics'
++paperurl: 'https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html'
++citation: 'Vaccaro, M.P., Mapelli, M., Trani, A.A., Liu, B., A&A, 714, A322 (2026)'
+ ---
+diff --git a/_publications/agn_paper_4.md b/_publications/agn_paper_4.md
+new file mode 100644
+index 0000000..bd1e7a8
+--- /dev/null
++++ b/_publications/agn_paper_4.md
+@@ -0,0 +1,10 @@
++---
++title: "Cosmic merger rates and population evolution of binary black hole mergers in AGN disks"
++collection: publications
++permalink: /publication/agn-paper-4
++excerpt: 'We compute the cosmic merger rate density and population evolution of binary black holes in AGN disks across redshift, connecting our models to current and future gravitational-wave observations.'
++date: 2026-10-01
++venue: 'submitted'
++paperurl: 'https://arxiv.org/abs/2610.40787'
++citation: 'Vaccaro, M.P., Trinca, A., Mapelli, M., Boco, L., Schneider, R., et al., submitted (2026)'
++---
+diff --git a/_publications/et_science_2026.md b/_publications/et_science_2026.md
+new file mode 100644
+index 0000000..8df79ef
+--- /dev/null
++++ b/_publications/et_science_2026.md
+@@ -0,0 +1,10 @@
++---
++title: "The Science of the Einstein Telescope"
++collection: publications
++permalink: /publication/et-science-2026
++excerpt: 'A comprehensive overview of the science case for the Einstein Telescope, the proposed third-generation ground-based gravitational-wave detector.'
++date: 2026-03-01
++venue: 'Journal of Cosmology and Astroparticle Physics'
++paperurl: 'https://doi.org/10.1088/1475-7516/2026/03/081'
++citation: 'Abac, A., Abramo, R., ..., Vaccaro, M.P., et al. (Einstein Telescope collaboration), JCAP 2026(03), 081 (2026)'
++---
+diff --git a/_publications/gair_2023.md b/_publications/gair_2023.md
+new file mode 100644
+index 0000000..170a407
+--- /dev/null
++++ b/_publications/gair_2023.md
+@@ -0,0 +1,10 @@
++---
++title: "The Hitchhiker's Guide to the Galaxy Catalog Approach for Dark Siren Gravitational-wave Cosmology"
++collection: publications
++permalink: /publication/gair-2023
++excerpt: 'A comprehensive guide to using galaxy catalogs to measure the Hubble constant from gravitational-wave dark sirens, covering methods, systematics, and future prospects.'
++date: 2023-07-01
++venue: 'The Astronomical Journal'
++paperurl: 'https://doi.org/10.3847/1538-3881/acca78'
++citation: 'Gair, J.R., Ghosh, A., Gray, R., Holz, D.E., ..., Vaccaro, M.P., et al., AJ, 166, 22 (2023)'
++---
+diff --git a/_publications/iorio_2024.md b/_publications/iorio_2024.md
+new file mode 100644
+index 0000000..b22d1a6
+--- /dev/null
++++ b/_publications/iorio_2024.md
+@@ -0,0 +1,10 @@
++---
++title: "The boring history of Gaia BH3 from isolated binary evolution"
++collection: publications
++permalink: /publication/iorio-2024
++excerpt: 'We show that Gaia BH3, the most massive known stellar-mass black hole in the Milky Way, can be explained by standard isolated binary evolution without invoking exotic formation channels.'
++date: 2024-09-01
++venue: 'Astronomy & Astrophysics'
++paperurl: 'https://doi.org/10.1051/0004-6361/202450531'
++citation: 'Iorio, G., Torniamenti, S., Mapelli, M., ..., Vaccaro, M.P., et al., A&A, 690, A144 (2024)'
++---
+diff --git a/_publications/modest25_2025.md b/_publications/modest25_2025.md
+new file mode 100644
+index 0000000..444425d
+--- /dev/null
++++ b/_publications/modest25_2025.md
+@@ -0,0 +1,10 @@
++---
++title: "Hierarchical Black Hole Mergers in AGN Disks: Tracing Massive Black Hole Growth Across Cosmic Time"
++collection: publications
++permalink: /publication/modest25-2025
++excerpt: 'Proceedings contribution presenting our models for hierarchical black hole assembly in AGN disks and their implications for massive black hole growth, presented at IAU Symposium 398.'
++date: 2025-06-16
++venue: 'Proceedings of IAU Symposium 398 (MODEST-25, Seoul)'
++paperurl: 'https://doi.org/10.1017/S174392132510505X'
++citation: 'Vaccaro, M.P., Proc. IAU Symp. 398, DOI: 10.1017/S174392132510505X (2025)'
++---
+diff --git a/_publications/morton_2023.md b/_publications/morton_2023.md
+new file mode 100644
+index 0000000..c2977bd
+--- /dev/null
++++ b/_publications/morton_2023.md
+@@ -0,0 +1,10 @@
++---
++title: "GW190521: a binary black hole merger inside an active galactic nucleus?"
++collection: publications
++permalink: /publication/morton-2023
++excerpt: 'We investigate whether GW190521, one of the most massive binary black hole mergers detected by LIGO/Virgo, is consistent with formation inside an AGN disk, examining the evidence for an electromagnetic counterpart.'
++date: 2023-12-01
++venue: 'Physical Review D'
++paperurl: 'https://doi.org/10.1103/PhysRevD.108.123039'
++citation: 'Morton, S.L., Rinaldi, S., Torres-Orjuela, A., Derdzinski, A., Vaccaro, M.P., et al., Phys. Rev. D, 108, 123039 (2023)'
++---
+diff --git a/_publications/rinaldi_2026.md b/_publications/rinaldi_2026.md
+new file mode 100644
+index 0000000..7a5fdbd
+--- /dev/null
++++ b/_publications/rinaldi_2026.md
+@@ -0,0 +1,10 @@
++---
++title: "When black holes align: a subpopulation of aligned massive BBHs observed via GWs"
++collection: publications
++permalink: /publication/rinaldi-2026
++excerpt: 'We identify a subpopulation of aligned, massive binary black holes in gravitational-wave data, consistent with formation in AGN disks where gas torques drive spin-orbit alignment.'
++date: 2026-09-12
++venue: 'Astronomy & Astrophysics (accepted)'
++paperurl: 'https://arxiv.org/abs/2606.23305'
++citation: 'Rinaldi, S., Wong, C., Vaccaro, M.P., Mislimi, E., Hannuksela, O.A., et al., A&A accepted (2026)'
++---
+diff --git a/_publications/royalsociety_2025.md b/_publications/royalsociety_2025.md
+new file mode 100644
+index 0000000..6c4ac37
+--- /dev/null
++++ b/_publications/royalsociety_2025.md
+@@ -0,0 +1,10 @@
++---
++title: "Astrophysics: a modern discipline with a Newtonian origin"
++collection: publications
++permalink: /publication/royalsociety-2025
++excerpt: 'An invited contribution to a Royal Society theme issue exploring the historical and conceptual roots of modern astrophysics in Newtonian mechanics, and how the discipline has evolved to encompass gravitational-wave astronomy.'
++date: 2025-01-01
++venue: 'Philosophical Transactions of the Royal Society A'
++paperurl: 'https://doi.org/10.1098/rsta.2023.0294'
++citation: 'Vaccaro, M.P., Phil. Trans. R. Soc. A, 383, 20230294 (2025). Invited contribution.'
++---
+diff --git a/_publications/torniamenti_2024.md b/_publications/torniamenti_2024.md
+new file mode 100644
+index 0000000..22ff866
+--- /dev/null
++++ b/_publications/torniamenti_2024.md
+@@ -0,0 +1,10 @@
++---
++title: "Hierarchical binary black hole mergers in globular clusters: mass function and evolution with redshift"
++collection: publications
++permalink: /publication/torniamenti-2024
++excerpt: 'We study hierarchical binary black hole mergers in globular clusters, characterising the resulting mass function and its evolution with redshift.'
++date: 2024-08-01
++venue: 'Astronomy & Astrophysics'
++paperurl: 'https://doi.org/10.1051/0004-6361/202449272'
++citation: 'Torniamenti, S., Mapelli, M., Périgois, C., ..., Vaccaro, M.P., et al., A&A, 688, A148 (2024)'
++---

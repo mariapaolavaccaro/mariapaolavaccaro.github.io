@@ -2,9 +2,9 @@
 title: "The role of migration traps in the formation of binary black holes in AGN disks"
 collection: publications
 permalink: /publication/agn-paper-2
-excerpt: 'Binary black holes (BBHs) forming in the accretion disks of active galactic nuclei (AGNs) represent a promising channel for gravitational-wave production. BBHs are typically expected to originate at migration traps, i.e. radial locations where the Type I migration of embedded stellar-mass black holes (BHs) transitions from outwards to inwards. In this work, we test this assumption by explicitly simulating the radial migration of BH pairs in AGN disks under different torque prescriptions, including thermal effects and the switch to Type II migration. Our results provide realistic prescriptions for BBH pair-up locations and timescales, highlighting the limitations of assuming fixed BBH formation sites'
-date: 2025-08-05
-venue: 'A&A'
-paperurl: 'https://www.aanda.org/articles/aa/full_html/2026/04/aa56761-25/aa56761-25.html'
-citation: 'Vaccaro, M. P., Seif, Y., & Mapelli, M. 2026, A&A, 708, A171 '
+excerpt: 'We study the role of migration traps in shaping binary black hole populations in AGN disks, finding that trap location and disk properties strongly influence the mass and spin distributions of merging binaries.'
+date: 2026-01-01
+venue: 'Astronomy & Astrophysics'
+paperurl: 'https://doi.org/10.1051/0004-6361/202556761'
+citation: 'Vaccaro, M.P., Seif, Y., Mapelli, M., A&A, 708, A171 (2026)'
 ---
