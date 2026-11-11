@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+---
+
+A map of all the places I have travelled to for conferences during my PhD.
+
+<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

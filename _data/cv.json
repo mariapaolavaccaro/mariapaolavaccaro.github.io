@@ -1,0 +1,28 @@
+{
+  "basics": {
+    "name": "Paola Vaccaro",
+    "email": "mariapaolavaccaro@gmail.com",
+    "phone": "",
+    "website": "https://academicpages.github.io",
+    "summary": "PhD Candidate at Heidelberg University",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Heidelberg",
+      "countryCode": "Germany",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "https://orcid.org/0000-0003-3776-9246"
+      },
+      {
+        "network": "Linkedin",
+        "username": "",
+        "url": "https://www.linkedin.com/in/maria-paola-vaccaro-78479b231/"
+      }
+    ]
+  }
+}
